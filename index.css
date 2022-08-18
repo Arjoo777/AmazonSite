@@ -9,6 +9,9 @@ body{
     
 }
 
+.custom-class{
+  height: 400px;
+}
 .navbar-brand{
     color: white !important;
 }

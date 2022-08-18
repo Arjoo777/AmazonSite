@@ -48,3 +48,8 @@
 //         next = next.nextElementSibling
 //     }
 // })
+
+
+$(function(){
+    $('.selectpicker').selectpicker();
+});
