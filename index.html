@@ -7,6 +7,13 @@
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>   
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+      <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" />
+
+       
     </head>
     <body>
         <header>
@@ -31,7 +38,7 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Link</a>
                             </li>
-                            <li class="nav-item dropdown">
+                            <!-- <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 All
                                 </a>
@@ -50,7 +57,7 @@
                                     <li><a class="dropdown-item" href="#">Watches</a></li>
                                 </ul>
 
-                            </li>
+                            </li> -->
                             <li>
                                 <div class="input-group">
                                     <div class="form-outline" style="width: 400px;">
@@ -81,6 +88,9 @@
                           </li> 
                           
                         </ul>
+                        <li class="nav-item">
+                          <i class="bi bi-sun" onClick="changeMode()"></i>
+                        </li>
                         <div class="nav-item">
                             <a class="nav-link" href="#"> <i class="bi bi-cart"></i></a>
                            
@@ -137,7 +147,7 @@
               </nav> -->
         </header>
         <!--------------------------------------------------- body ----------------------------------->
-
+<!-----------------------------------------------------------first carousel ------------------------------------->
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -161,9 +171,233 @@
           </div>
 
             <!-- --------------------------------------------------first carousel end ------------------------------------------->
-            
-          
-            <!--------------------------------------------------------- cards------------------------------- -->
+            <!---------------------------------------------------------Deals--------------------------------------------------->
+            <div class="container-fluid my-5">
+              <div class="row" >
+                <h3 class="fw-bold ">Today’s Deals</h3>
+                  <div class="col-12 m-auto" >
+                      <div class="owl-carousel owl-theme">
+                          <div class="item">
+                              <div class="card border-0 shadow custom-card2">
+                                <div class="card-body" >
+                                  <img src="Images/deal.jpg" alt="" class="card-img-top" >
+                                  <p class="card-text" style="font-size: 20px;">Kid's Clothing</p>
+                                  <a href="#" class="btn btn-info">Upto 20% off</a>
+                                </div>  
+                              </div>
+                          </div>
+      
+                          <div class="item">
+                              <div class="card border-0 shadow custom-card2">
+                                <div class="card-body" >
+                                  <img src="Images/deal2.jpg" alt="" class="card-img-top" >
+                                  <p class="card-text" style="font-size: 20px;">Dry Fruits & Nuts</p>
+                                  <a href="#" class="btn btn-info">Upto 10% off</a>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="item">
+                              <div class="card border-0 shadow custom-card2">
+                                <div class="card-body" >
+                                  <img src="Images/deal3.jpg" alt="" class="card-img-top" >
+                                  <p class="card-text" style="font-size: 20px;">Clothing</p>
+                                  <a href="#" class="btn btn-info">Upto 15% off</a>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="item">
+                              <div class="card border-0 shadow custom-card2">
+                                <div class="card-body" >
+                                  <img src="Images/deal4.jpg" alt="" class="card-img-top" >
+                                  <p class="card-text" style="font-size: 20px;">Mcaffeine</p>
+                                  <a href="#" class="btn btn-info">Upto 20% off</a>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="item">
+                              <div class="card border-0 shadow custom-card2">
+                                <div class="card-body" >
+                                  <img src="Images/deal5.jpg" alt="" class="card-img-top" >
+                                  <p class="card-text" style="font-size: 20px;">Perfumes</p>
+                                  <a href="#" class="btn btn-info">Upto 30% off</a>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="item">
+                              <div class="card border-0 shadow custom-card2">
+                                <div class="card-body" >
+                                  <img src="Images/deal6.jpg" alt="" class="card-img-top" >
+                                  <p class="card-text" style="font-size: 20px;">Footware</p>
+                                  <a href="#" class="btn btn-info">Upto 10% off</a>
+                                </div>
+                              </div>
+                          </div>
+                        <div class="item">
+                          <div class="card border-0 shadow custom-card2">
+                            <div class="card-body" >
+                              <img src="Images/deal7.jpg" alt="" class="card-img-top" >
+                              <p class="card-text" style="font-size: 20px;">Musical Instruments</p>
+                              <a href="#" class="btn btn-info">Upto 20% off</a>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="item">
+                        <div class="card border-0 shadow custom-card2">
+                          <div class="card-body" >
+                            <img src="Images/deal8.jpg" alt="" class="card-img-top" >
+                            <p class="card-text" style="font-size: 20px;">Air Freshner</p>
+                            <a href="#" class="btn btn-info">Upto 20% off</a>
+                          </div>
+                        </div>
+                    </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+
+          <!-----------------------------------------------------Computer Accessories ----------------------------------->
+
+          <div class="container-fluid my-5">
+            <div class="row" >
+              <h3 class="fw-bold ">Best Sellers in Computers & Accessories</h3>
+                <div class="col-12 m-auto" >
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="card border-0 shadow custom-card">
+                              <div class="card-body" >
+                                <img src="Images/comp_accesories.jpg" alt="" class="card-img-top" >
+                              </div>
+                               
+                            </div>
+                        </div>
+    
+                        <div class="item">
+                            <div class="card border-0 shadow custom-card">
+                                <img src="Images/comp_accesories1.jpg" alt="" class="card-img-top">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card border-0 shadow custom-card">
+                                <img src="Images/comp_accesories2.jpg" alt="" class="card-img-top">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card border-0 shadow custom-card">
+                                <img src="Images/comp_accesories3.jpg" alt="" class="card-img-top">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card border-0 shadow custom-card">
+                                <img src="Images/comp_accesories4.jpg" alt="" class="card-img-top">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card border-0 shadow custom-card">
+                                <img src="Images/comp_accesories5.jpg" alt="" class="card-img-top">
+                            </div>
+                        </div>
+                      <div class="item">
+                        <div class="card border-0 shadow custom-card">
+                            <img src="Images/comp_accesories7.jpg" alt="" class="card-img-top">
+                        </div>
+                    </div>
+                    <div class="item">
+                      <div class="card border-0 shadow custom-card">
+                          <img src="Images/comp_accesories8.jpg" alt="" class="card-img-top">
+                      </div>
+                  </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+          <!--------------------------------------------------------Beauty Product ------------------------------------->
+          <div class="container-fluid my-5">
+            <div class="row" >
+              <h3 class="fw-bold ">Frequently repurchased in Beauty and Personal Care</h3>
+                <div class="col-12 m-auto" >
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="card border-0 shadow custom-card">
+                              <div class="card-body" >
+                                <img src="Images/product1.jpg" alt="" class="card-img-top" >
+                              </div>
+                               
+                            </div>
+                        </div>
+    
+                        <div class="item">
+                            <div class="card border-0 shadow custom-card">
+                                <img src="Images/product2.jpg" alt="" class="card-img-top">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card border-0 shadow custom-card">
+                                <img src="Images/product3.jpg" alt="" class="card-img-top">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card border-0 shadow custom-card">
+                                <img src="Images/product4.jpg" alt="" class="card-img-top">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card border-0 shadow custom-card">
+                                <img src="Images/product6.jpg" alt="" class="card-img-top">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card border-0 shadow custom-card">
+                                <img src="Images/product7.jpg" alt="" class="card-img-top">
+                            </div>
+                        </div>
+                      <div class="item">
+                        <div class="card border-0 shadow custom-card">
+                            <img src="Images/product8.jpg" alt="" class="card-img-top">
+                        </div>
+                    </div>
+                    <div class="item">
+                      <div class="card border-0 shadow custom-card">
+                          <img src="Images/product9.jpg" alt="" class="card-img-top">
+                      </div>
+                  </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+            integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+            crossorigin="anonymous"></script>
+
+            <script>
+              $('.owl-carousel').owlCarousel({
+                  loop: true,
+                  margin: 10,
+                  nav: true,
+                  responsive: {
+                      0: {
+                          items: 1
+                      },
+                      600: {
+                          items: 2
+                      },
+                      1000: {
+                          items: 5
+                      }
+                  }
+              })
+          </script>
+
+            <!--------------------------------------------------------- card------------------------------- -->
 
             <div class="container-fluid" style="display: inline-block;">
                 <div class="card dark-light mb-3" style="max-width: 18rem;">

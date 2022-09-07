@@ -1,6 +1,13 @@
 body{
-    background-color: aqua;
+  background-color:white;
+  color:black
 }
+.mydark{
+  background-color:black;
+  color:rgb(255, 255, 255);
+  
+}
+
 
 .my-navbar{
     background-color:#131921;
@@ -8,7 +15,11 @@ body{
     height: 50px;
     
 }
-
+.bi-sun{
+  size: 40px;
+  color: white;
+  margin-top: 5px;
+}
 /* .custom-class{
   height: 400px;
 } */
@@ -35,13 +46,28 @@ body{
   height: 60px;
   font-weight: bolder;
   text-align: center;
-  background-color: blueviolet;
+  color: black;
+}
+.card-text{
+  color: black;
+}
+.card-footer{
+  color: black;
 }
 
 .card-img-top{
   height: 220px;
 }
 
+.custom-card{
+
+  height: 250px;
+}
+
+.custom-card2{
+
+  height: 350px;
+}
 /* .navbar-custom{
     height: 45px;
     background-color:#232F3E;
